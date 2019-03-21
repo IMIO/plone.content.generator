@@ -1,0 +1,89 @@
+{
+  "number": 5,
+  "url": "http://localhost:8081/Plone/Members/{user}/mymeetings/meeting-config-council/@bulk",
+  "template": {
+    "@type": "MeetingItemCouncil",
+    "budgetRelated": [
+      true,
+      false
+    ],
+    "budgetInfos": "richtext",
+    "category": {
+      "type": "vocabulary",
+      "url": "http://localhost:8081/Plone/Members/dgen/mymeetings/meeting-config-council/recurringagenda1/@at_vocabularies/listCategories"
+    },
+    "creation_date": "today",
+    "decision": "richtext",
+    "description": "richtext",
+    "detailedDescription": "richtext",
+    "emergency": [
+      "no_emergency"
+    ],
+    "inAndOutMoves": "richtext",
+    "internalNotes": "richtext",
+    "isAcceptableOutOfMeeting": [
+      true,
+      false
+    ],
+    "itemIsSigned": [
+      true,
+      false
+    ],
+    "marginalNotes": "richtext",
+    "motivation": "richtext",
+    "notes": "richtext",
+    "observations": "richtext",
+    "oralQuestion": [
+      true,
+      false
+    ],
+    "pollType": [
+      "freehand"
+    ],
+    "pollTypeObservations": "richtext",
+    "preferredMeeting": {
+      "type": "vocabulary",
+      "url": "http://localhost:8081/Plone/Members/dgen/mymeetings/meeting-config-council/recurringagenda1/@at_vocabularies/listMeetingsAcceptingItems"
+    },
+    "privacy": [
+      "public",
+      "secret"
+    ],
+    "proposingGroup": {
+      "type": "vocabulary",
+      "url": "http://localhost:8081/Plone/Members/dgen/mymeetings/meeting-config-council/recurringagenda1/@at_vocabularies/listProposingGroups"
+    },
+    "review_state": [
+      "validated",
+      "proposed",
+      "created"
+    ],
+    "sendToAuthority": [
+      true,
+      false
+    ],
+    "textCheckList": "paragraph",
+    "title": "line",
+    "toDiscuss": [
+      true,
+      false
+    ],
+    "votesAreSecret": [
+      true,
+      false
+    ]
+  },
+  "data": {
+    "user": [
+      "agentPers",
+      "agentInfo",
+      "agentCompta",
+      "dgen"
+    ]
+  },
+  "random_text": {
+    "tralala": 100,
+    "trilili": 1000,
+    "trololo": 10000
+  }
+}
